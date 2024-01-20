@@ -1,29 +1,17 @@
-# news-data-scrapping-and-section-classification
-This project scrapes news articles from a public news website, tags them using classification provided by the website, and uses a text classification model to predict article sections.
+# Automated-employee-attendance-monitoring-using-liveness-face-recognition-and-Geofencing-in-real-time
+Marking fake attendance is a common problem in traditional attendance tracking systems, especially in large organizations where it is difficult to manually monitor each employee. To address the issue of spoofing or impersonation via photos or videos for fake attendance, a system has been devised. It mandates employees to be physically present within a specific geographical area before utilizing facial recognition for attendance marking. A custom dataset has been created for training the anti-spoofing model. The MobileNetV2 architecture is utilized to train the model and decrease the amount of parameters and computations necessary, all while preserving high accuracy. The liveness detection model ensures that only real faces are recognized, preventing spoofing attempts. By combining liveness facial recognition with geofencing, organizations can ensure that only authorized individuals can access a specific area, and that they are physically present.
+
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3.9.13
-- Install required libraries: `pip install -r requirements.txt`
 
 ### Running the Script
 
-1. Clone the repository: `git clone https://github.com/Abhipawar02/news-data-scrapping-and-section-classification.git` 
-2. Navigate to the project directory: `cd news-data-scrapping-and-section-classification`
-3. Run the script: `streamlit run main.py`
+1. Clone the repository: `git clone https://github.com/Abhipawar02/Automated-employee-attendance-monitoring-using-liveness-face-recognition-and-Geofencing-in-real-time` 
+2. Navigate to the project directory: `cd Automated-employee-attendance-monitoring-using-liveness-face-recognition-and-Geofencing-in-real-time`
+3. Create a Virtual ENV: `conda activate venv`
+4. Install required libraries: `pip install -r requirements.txt`
+5. Run the script: `python run main.py`
 
-## Data Collection
-- The raw data was collected from [Public News Website](https://indianexpress.com/).
-- For detailed steps and code, refer to the [News Website-Scrapper](https://colab.research.google.com/drive/1gdkgr0gaqWT4HwUxo6iMaCf7_3D6ofoD?usp=sharing).
-  
-## Data Preprocessing and Model Training 
-- Explore the steps, refer to the [Scrapped News Data Preprocessing And Training](https://colab.research.google.com/drive/17MYgxXcOHpwXtmiXfDWiF0SLYy-m5BhW?usp=sharing)
-## Model Evaluation
-![Evaluation Metrics](results-screenshots/evaluation_metrics.png)
-
-### Note
-- Both of notebooks could be find in /notebook directory
-
-## Results
-- Inside /results-screenshots Directory
